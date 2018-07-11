@@ -19,12 +19,15 @@ Let N = (P * Q)
 
 The seed should be a number between 1 and N - 1
 
-Once you have those 3 numbers, you can simply call initialize the constructor with those three parameters.
+Once you have those 3 numbers, you can simply call the constructor with those three parameters.
 ```
 BBS numberGen(P, Q, seed);
 ```
 
-Then you can call `getRandNum()` to generate a random number or `getRandBit()` to get a random bit
+Then you can call `getRandNum()` to generate a random number or `getRandBit()` to get a random bit.
 The random bit is generated using `getRandNum() mod 2`
 
-See `blum_blum_shub_example.cpp` for an example of how to generate a sequence of numbers.
+See [`blum_blum_shub_example.cpp`](blum_blum_shub_example.cpp) for an example of how to generate a sequence of numbers.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](README.md) file for details
