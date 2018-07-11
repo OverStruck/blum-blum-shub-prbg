@@ -58,6 +58,19 @@ int BBS::getRandBit()
 	return this->getRandNum() % 2;
 }
 
-BBS::~BBS()
+void BBS::setP(long p)
 {
+	this->p = p;
 }
+
+void BBS::setQ(long q)
+{
+	this->q = q;
+}
+
+void BBS::setSeed(long seed)
+{
+	this->x0 = seed;
+}
+
+BBS::~BBS(){}
