@@ -1,3 +1,4 @@
+#include <cmath>
 #include<iostream>
 
 class BBS
@@ -10,9 +11,9 @@ public:
 	~BBS();
 	BBS(long p, long q, long seed);
 
-	void setP();
-	void setQ();
-	void setSeed();
+	void setP(long p);
+	void setQ(long q);
+	void setSeed(long seed);
 	int getRandBit();
 	long getRandNum();
 	void setParams(long p, long q, long seed);
