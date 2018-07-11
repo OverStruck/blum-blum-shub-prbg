@@ -30,4 +30,4 @@ The random bit is generated using `getRandNum() mod 2`
 See [`blum_blum_shub_example.cpp`](blum_blum_shub_example.cpp) for an example of how to generate a sequence of numbers.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](README.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
