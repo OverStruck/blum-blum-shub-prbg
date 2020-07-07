@@ -17,7 +17,7 @@ A Blum prime number P is a number P congruent to 3 (modulus 4)
 
 Let N = (P * Q)
 
-The seed should be a number between 1 and N - 1
+The seed should be a number between 2 and N - 1
 
 Once you have those 3 numbers, you can simply call the constructor with those three parameters.
 ```
