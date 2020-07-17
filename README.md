@@ -5,6 +5,9 @@ Blum Blum Shub (B.B.S.) was proposed in 1986 by Lenore Blum, Manuel Blum and Mic
 
 BBS is a cryptographically secure psudo random number generator
 
+# UPDATE
+See my project [Juan's OTP Encryption Suite](https://github.com/OverStruck/Juan-s-OTP-Encryption-Suite) which uses a Blum-Blum-Shub Psudo Random Number Generator to encrypt files for a practical example example of using Blum-Blum-Shub Psudo Random Number Generator
+
 ## Getting Started
 
 In order to use this generator you need to chose 3 numbers: P, Q and a seed.
